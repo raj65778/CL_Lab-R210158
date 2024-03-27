@@ -1,0 +1,25 @@
+=>audio and image file handling
+*audio file 0 to 1 sec contain infinet amplitudes
+*sampling:- 
+* within one sec how many amplitudes --- sampling rate=sample/sec (ex:-8000)
+*extensions:- .mp3 (moving pictures experts group:-mpeg),auc,
+
+*header:- mapped to formats like mp3,auc ...
+*data:-
+
+*codec:- coder and decoder
+
+#in matlab for real audio:- x,fs = audioread("filename")
+#plot(x)
+#size(x);- based on number of channels   x[:,1];- for right channel , x[:,2] for left channel
+
+#audio files 2 types:- mono and sterio
+#earphones pin:- 1 for mic, right ,left
+* amplitude and delay :- gives 
+#audo file ;- left (a1x1(t-t1) and right (a2x2(t-t2) channels
+
+
+
+#for python
+
+*scipy
